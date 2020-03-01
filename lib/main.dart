@@ -78,6 +78,9 @@ class RandomWordsState extends State<RandomWords> {
       body: _buildSuggestions(),
     );
   }
+
+  void _pushSaved() {
+  }
 // #enddocregion RWS-build
 // #docregion RWS-var
 }
