@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
 // #docregion RWS-var
 class RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
+  final Set<WordPair> _saved = Set<WordPair>();
   final _biggerFont = const TextStyle(fontSize: 18.0);
   // #enddocregion RWS-var
 
